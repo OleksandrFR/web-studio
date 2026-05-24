@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: #212121;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 90px;
+}
+
+.logo-accent {
+    color: #2196F3;
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #2196F3;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-left: auto;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+}
+
+.contact-link:hover {
+    color: #2196F3;
+}
+
+.hero-section {
+    background-color: #2F303A;
+    padding: 200px 0;
+    text-align: center;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: #188CE8;
+}
+
+.features-section {
+    padding: 94px 0;
+}
+
+.features-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.features-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.features-text {
+    font-size: 14px;
+    color: #757575;
+    line-height: 1.5;
+}
+.work-section {
+    padding-bottom: 94px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.work-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.work-list img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.team-section {
+    background-color: #F5F4FA;
+    padding: 94px 0;
+    text-align: center;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.team-card {
+    background-color: #ffffff;
+    padding-bottom: 30px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.team-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.team-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.team-position {
+    font-size: 16px;
+    color: #757575;
+}
