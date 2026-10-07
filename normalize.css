@@ -147,9 +147,7 @@ header {
 }
 
 .hero {
-    background:
-        radial-gradient(circle at center, rgba(33, 150, 243, 0.25), transparent 60%),
-        linear-gradient(135deg, #2f303a 0%, #1f2028 100%);
+    background: #2f303a;
     text-align: center;
     padding: 80px 15px;
 }
@@ -169,18 +167,16 @@ header {
     border: none;
     border-radius: 4px;
     padding: 15px 35px;
-    background: linear-gradient(135deg, #2196f3 0%, #188ce8 100%);
+    background: #2196f3;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
     transition: .3s;
     animation: heroButton 1.5s ease;
-    box-shadow: 0 4px 10px rgba(33, 150, 243, 0.3);
 }
 
 .hero button:hover {
-    background: linear-gradient(135deg, #188ce8 0%, #0d7bd1 100%);
-    box-shadow: 0 6px 15px rgba(33, 150, 243, 0.4);
+    background: #188ce8;
 }
 
 .features {
@@ -257,18 +253,13 @@ header {
     padding-bottom: 30px;
     background: #fff;
     text-align: center;
-    box-shadow:
-        0 2px 8px rgba(0, 0, 0, .1),
-        0 8px 20px rgba(0, 0, 0, .05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
     animation: cardAppear 1.2s ease;
     transition: .3s;
 }
 
 .member:hover {
     transform: translateY(-10px);
-    box-shadow:
-        0 8px 20px rgba(0, 0, 0, .12),
-        0 15px 30px rgba(0, 0, 0, .08);
 }
 
 .member img {
@@ -340,12 +331,6 @@ footer p {
     overflow: hidden;
     border: 1px solid #eeeeee;
     background: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
-    transition: .3s;
-}
-
-.card:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, .15);
 }
 
 .card img {
@@ -378,13 +363,7 @@ footer p {
     align-items: center;
     justify-content: center;
     padding: 20px;
-
-    background: linear-gradient(
-        135deg,
-        rgba(33, 150, 243, 0.95) 0%,
-        rgba(21, 101, 192, 0.9) 100%
-    );
-
+    background: rgba(33, 150, 243, .9);
     opacity: 0;
     visibility: hidden;
     transition: .3s;
